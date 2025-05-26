@@ -1,4 +1,4 @@
-# Algorithmen-und-Datenstrukturen
+# Algorithms_and_Datastructures
 This is a Repo for my Uni work in my second semester in "Algorythmen und Datenstrukturen".
 Its basic funktion is to help me learn and improve my Git skills and in the future hopefully also these of my fellow student colleges ...
 I´ll share my code and my excercise sheets here and will complete and update this repo until the end of my 2nd semester.
