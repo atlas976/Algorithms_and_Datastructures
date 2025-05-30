@@ -7,11 +7,12 @@ Nevertheless i hope to help others with this, so enjoy!
 
 Quick edit: if there are any mistakes or possibilities of improvement, feel free to tell me about!
 
-Current State of excercises:
+Current State of excercises & todos:
 
+- rework folder paths, projekt structure and include exercise sheets ...
 - exercise 1: completed, but has to be reworked for duration improvement
 - exercise 2: completed, but has to be reworked to uniform var/class naming
 - exercise 3: completed, but has to be reworked for proper annotations
-- exercise 4: not done yet
+- exercise 4: first half done 
 
 ...
