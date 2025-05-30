@@ -2,12 +2,12 @@
 
 #include <filesystem>
 using namespace std;
-
 #include <vector>
 #include <algorithm>
 
-using namespace std;
 
+
+//exercise 1
 vector<int> addNumbers(vector<int>& x, vector<int>& y, int base) {
     // Ensure x is the longer vector
     if (x.size() < y.size()) swap(x, y);
@@ -40,6 +40,18 @@ vector<int> addNumbers(vector<int>& x, vector<int>& y, int base) {
 
     return x;
 }
+
+
+
+/**
+ *  ========== Helper Functions ==========
+ *
+ *  void printDigits(vector<int>& digits, int base)
+ *  -> Prints the digits from the given vector as a decimal number
+ *
+ */
+
+
 
 /**
  *  ========== Hilfsfunktionen ==========

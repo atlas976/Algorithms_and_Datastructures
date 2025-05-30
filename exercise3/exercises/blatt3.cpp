@@ -1,20 +1,18 @@
 #include "../include/blatt3.h"
-
-/**
- * Aufgabe 2
- */
 #include <vector>
 #include <climits>
 
 
-//brute force, gibt bessere laufzeit sicherlich
+
+//exercise 1
+//brute force, so there is probably better O()
 int max_subarray(std::vector<int>& a) {
 
-    //var deklarieren
-    int max_sum = INT_MIN;  // Funktioniert auch bei negativen Werten
+    //initialise var
+    int max_sum = INT_MIN;
     int n = a.size();
 
-    //subarrays durchlaufen
+    //go through the single subarrays & calculate their sum
     for (int i = 0; i < n; ++i) {
         for (int j = i; j < n; ++j) {
             int sum = 0;
@@ -27,20 +25,22 @@ int max_subarray(std::vector<int>& a) {
         }
     }
 
-    //ausgabe des wertes des größten subarrays
+    //return the highest subarray
     if (a.size() == 0) {max_sum = 0;}
     return max_sum;
 }
 
 
+
+//exercise 2a
 int nextSeat(set<int>& room) {
 
-    //var deklarieren
+    //var
     int bestDist = -1;
     int bestIndex = -1;
     int from = -1;
 
-    //nächsten sitzplatz berechnen
+    //calculate next seat
     for(int to: room) {
         if(from == -1) {
             from = to;
@@ -55,22 +55,26 @@ int nextSeat(set<int>& room) {
         from = to;
     }
 
-    //ausgabe
     return bestIndex;
 }
 
 
+
+//exercise 2b
 vector<int> examRoomOrder(int n) {
 
     vector<int> order;
     set<int> room;
 
+    //first place
     room.insert(0);
     order.push_back(0);
 
+    //second place
     room.insert(n-1);
     order.push_back(n-1);
 
+    //calculate next...
     for(int i = 2; i < n; i++) {
         int bestIndex = nextSeat(room);
         room.insert(bestIndex);
@@ -79,6 +83,18 @@ vector<int> examRoomOrder(int n) {
     return order;
 
 }
+
+
+
+/**
+ *  ========== Helper Functions ==========
+ *
+ *  void printList(vector<int>& numbers)
+ *  -> Prints the list
+ *
+ */
+
+
 
 /**
  *  ========== Hilfsfunktionen ==========

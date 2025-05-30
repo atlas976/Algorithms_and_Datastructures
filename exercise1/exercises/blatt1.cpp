@@ -1,15 +1,15 @@
 #include "../include/blatt1.h"
 
 
+
+//warmup
 bool returnTrue(){
     return true;
 }
 
-
 int returnPositiveOdd() {
     return 7;
 }
-
 
 int returnPrime() {
     return 13;
@@ -17,56 +17,70 @@ int returnPrime() {
 
 
 
-/**
- * Aufgabe 2a)
- */
+//exercise 2a)
 void reverse(vector<int>& numbers) {
-    int buff = 0;
-    for (int i = 0; i < numbers.size()/2; i++) { //number = [anderer vektor] lässt einen vektor "in" den anderen kopieren
+    int buff = 0; //buffer var
+
+    for (int i = 0; i < numbers.size()/2; i++) {
         buff = numbers[i];
         numbers[i] = numbers[numbers.size()-1-i];
         numbers[numbers.size()-1-i] = buff;
     }
 }
 
-/**
- * Aufgabe 2b)
- */
+
+
+//exercise 2b)
 vector<int> plusOne(vector<int>& digits) {
-    vector<int> sol;
-    int digits_Length = digits.size();
-    sol = digits;
-    sol[digits_Length-1] += 1; // inkrementieren des letzten vektor eintrags
-    for (int i = digits_Length-1; i >= 0; i--) { // test ob die ziffer größer 10 ist und anpassen des vektors
-        if (sol[i] == 10) {
-            sol[i] = 0;
-            if (i != 0) sol[i - 1] += 1;
-        }
-        else break; // falls fertig kann schleife beendet werden
-        if (i == 0 ) {
-            sol[i] = 1; // falls sich eine neue 10ner stelle ergibt
-            sol.push_back(0);
-        }
+    vector<int> sol(digits); // copie of digits
+    int carry = 0; // carry bit
+    int solLength = sol.size();
+
+    //increment the last vector element & calculate the first carry
+    sol[solLength - 1] = sol[solLength - 1] + 1;
+    if (sol[solLength - 1] > 9) {carry = 1; sol[solLength - 1] = 0;}
+
+    //increment the single elements as long as there is a carry
+    for (int i = solLength - 2; i >= 0; i--) {
+        sol[i] = sol[i] + carry;
+        if (sol[i] > 9) {carry = 1; sol[i] = 0;}
+        else {carry = 0; break;}
     }
+
+    //if there is still a last carry
+    //--> set first element to 1 and create a new vector element with 0 at the end
+    if (carry) {sol[0] = 1; sol.push_back(0);}
     return sol;
 }
 
-/**
- * Aufgabe 2c)
- */
 
-//kann man besser optimieren (bsp.: +2 wenn peak gefunden --> Konstante in O(n) verkleinern
+
+//exercise 2c)
 vector<int> findPeaks(vector<int>& mountain) {
     std::vector<int> peaks;
-    int i = 0;  //variable definieren, die die größe des vektors beinhaltete --> dadurch weniger funktions aufrufe
-    if (mountain.size() == 0) return peaks;
-    for (i = 1; i < mountain.size() - 1; i++) {
-        if (mountain[i] > mountain[i - 1] && mountain[i] > mountain[i + 1]) {
-            peaks.push_back(i);
-        }
+    int mountainLength = mountain.size(); //safes calculating time
+
+    if (mountainLength == 0) return peaks; //if the array is empty
+    for (int i = 1; i < mountainLength - 1; i++) {
+        if (mountain[i] > mountain[i - 1] && mountain[i] > mountain[i + 1]) {peaks.push_back(i); i++;}
     }
+
     return peaks;
 }
+
+
+
+/**
+ *  ========== Helper Functions ==========
+ *
+ *  void printDigits(vector<int>& digits)
+ *  -> Prints the digits from the given vector as a decimal number
+ *
+ *  void printList(vector<int>& numbers)
+ *  -> Prints the list
+ *
+ */
+
 
 
 /**
