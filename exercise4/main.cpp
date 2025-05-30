@@ -1,17 +1,16 @@
 #include <iostream>
-
 #include "include/blatt4.h"
 
 void aufgabe1() {
     vector<int> digits = {3,4,7,6,9};
 
     printf("Before increment: ");
-    printDigits(digits);
+    printList(digits);
 
     vector<int> incremented = plusOne(digits);
 
     printf("After increment: ");
-    printDigits(incremented);
+    printList(incremented);
 }
 
 void aufgabe2() {
@@ -20,13 +19,13 @@ void aufgabe2() {
     int base = 55;
 
     printf("Before adding:\n");
-    printDigits(digitsA);
-    printDigits(digitsB);
+    printList(digitsA);
+    printList(digitsB);
 
     vector<int> added = addNumbers(digitsA, digitsB, base);
 
     printf("After adding: ");
-    printDigits(added);
+    printList(added);
 }
 
 
