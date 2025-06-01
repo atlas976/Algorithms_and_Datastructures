@@ -5,7 +5,6 @@ I´ll share my code and my excercise sheets here and will complete and update th
 Also I´ll excuse myself for any mistakes, due to the fact that this is no big project of mine, but a simple exercise which I´ll do without double checking everything.
 Nevertheless i hope to help others with this, so enjoy!
 
-Quick edit: if there are any mistakes or possibilities of improvement, feel free to tell me about!
 
 Current State of excercises & todos:
 
@@ -16,3 +15,5 @@ Current State of excercises & todos:
 - exercise 5: not completed
 
 ...
+
+Quick edit: These exercises folders can be downloaded and easily be worked on by just opening them with Clion, or similarly with other compilers. It is not permitted to use them for any commercial use, as well as it is not permitted to sell them in any kind of product. If there are any mistakes or possibilities of improvement, feel free to tell me about!
