@@ -1,1 +1,43 @@
+# === macOS system files ===
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# === Build artifacts ===
+*.o
+*.obj
+*.out
+*.a
+*.so
+*.exe
+*.dll
+a.out
+
+# === Clang/GCC coverage/debug ===
+*.dSYM/
+*.gcno
+*.gcda
+
+# === Backup and temp files ===
+*~
+*.swp
+*.tmp
+
+# === VS Code and JetBrains IDEs ===
+.vscode/
+.idea/
+
+# === CLion-specific CMake output ===
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# === Test output (optional) ===
+Testing/
+CTestTestfile.cmake
+DartConfiguration.tcl
+
+# === CLion autosave or generated ===
+*.iml
