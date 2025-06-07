@@ -38,7 +38,7 @@ vector<int> plusOne(vector<int>& digits) {
     //increment through the singel digits by using an iterator
     for (auto it = (++solRBegin); it != sol.rend(); ++it) {
         *it = *it + carry;
-        if (*it > 9) {carry = 1; *it = 0;}
+        if (*it > 9) {carry = 1;*it = 0;}
         else {carry = 0; break;}
     }
 

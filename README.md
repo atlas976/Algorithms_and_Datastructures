@@ -16,4 +16,6 @@ Current State of excercises & todos:
 
 ...
 
-Quick edit: These exercises folders can be downloaded and easily be worked on by just opening them with Clion, or similarly with other compilers. It is not permitted to use them for any commercial use, as well as it is not permitted to sell them in any kind of product. If there are any mistakes or possibilities of improvement, feel free to tell me about!
+Disclaimer: These exercises folders can be downloaded and easily be worked on by just opening them with Clion, or similarly with other compilers. It is not permitted to use them for any commercial use, as well as it is not permitted to sell them in any kind of product. If there are any mistakes or possibilities of improvement, feel free to tell me about!
+
+Notes: gitignore 
