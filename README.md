@@ -12,7 +12,8 @@ Current State of excercises & todos:
 - exercise 2: completed
 - exercise 3: completed
 - exercise 4: completed
-- exercise 5: not completed
+- exercise 5: completed
+- exercise 6: not completed
 
 ...
 
