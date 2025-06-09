@@ -40,8 +40,8 @@ void aufgabe4b() {
 
 int main() {
     aufgabe1b();
-//    aufgabe3a();
-//    aufgabe3b();
-//    aufgabe4a();
-//    aufgabe4b();
+    aufgabe3a();
+    aufgabe3b();
+    aufgabe4a();
+    aufgabe4b();
 }
