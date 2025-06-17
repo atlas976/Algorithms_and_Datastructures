@@ -2,7 +2,7 @@
 
 
 //exercise 1b
-float pi(int n) {
+float pi(int n) { // NOLINT(*-no-recursion)
     float piSum = 0;
 
 
@@ -11,11 +11,11 @@ float pi(int n) {
 
     //check if n is even
     if (n%2 == 0) {
-        piSum = (4.0)/(2.0*float(n) + 1) + pi(n - 1);
+        piSum = 4.0/(2.0*static_cast<float>(n) + 1) + pi(n - 1);
     }
     //check if n is odd
     else if (n%2 != 0) {
-        piSum = -4/(2*float(n) + 1) + pi(n - 1);
+        piSum = -4/(2.0*static_cast<float>(n) + 1) + pi(n - 1);
     }
 
 
@@ -35,7 +35,7 @@ long binom_iter(int n, int k) {
     for (int i = 1; i <= (n-k); i++) {nMinuskFac = nMinuskFac * i;}
 
     //calculate binominal and return
-    return nFac/(kFac * nMinuskFac);
+    return nFac / (kFac * nMinuskFac);
 }
 
 long binom_rec(int n, int k) {

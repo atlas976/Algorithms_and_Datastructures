@@ -2,7 +2,7 @@
 
 // exercise 2
 // constant is setting the maximum values of n and k
-const int N = 1000;
+constexpr int N = 1000;
 
 long long binom_memo(int n, int k) {
     // TODO
