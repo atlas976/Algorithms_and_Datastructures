@@ -45,7 +45,7 @@ void aufgabe4b() {
 
 int main() {
     aufgabe2();
-//    aufgabe3();
-//    aufgabe4a();
-//    aufgabe4b();
+    aufgabe3();
+    aufgabe4a();
+    aufgabe4b();
 }
