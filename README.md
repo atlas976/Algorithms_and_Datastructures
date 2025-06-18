@@ -13,7 +13,7 @@ Current State of excercises & todos:
 - exercise 3: completed
 - exercise 4: completed
 - exercise 5: completed
-- exercise 6: not completed
+- exercise 6: completed, review
 
 ...
 
