@@ -1,6 +1,8 @@
 #include <iostream>
 #include "include/blatt1.h"
 
+using namespace std;
+
 void aufgabe1() {
     vector<int> numbers = {12, 23, 34, 45, 56, 67, 78};
 
@@ -41,4 +43,5 @@ int main() {
     aufgabe1();
     aufgabe2();
     aufgabe3();
+    return 0;
 }

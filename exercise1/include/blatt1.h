@@ -4,6 +4,8 @@
 
 #include <vector>
 #include <sstream>
+#include <stdexcept>
+#include <string>
 
 #ifndef PROGRAMMIERAUFGABEN_BLATT0_H
 #define PROGRAMMIERAUFGABEN_BLATT0_H

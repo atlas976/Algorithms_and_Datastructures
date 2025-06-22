@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.22)
 project(Programmieraufgaben)
 
 set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(Programmieraufgaben main.cpp include/blatt1.h exercises/blatt1.cpp)
 
