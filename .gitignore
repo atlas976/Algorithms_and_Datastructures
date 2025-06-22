@@ -12,6 +12,7 @@
 *.exe
 *.dll
 a.out
+build/
 
 # === Clang/GCC coverage/debug ===
 *.dSYM/
