@@ -2,12 +2,16 @@
 // Created by Robin on 25.03.24.
 //
 
+
+#ifndef PROGRAMMIERAUFGABEN_BLATT7_H
+#define PROGRAMMIERAUFGABEN_BLATT7_H
+
+#include <cstdio>
 #include <cmath>
 #include <vector>
 #include <sstream>
+#include <iostream>
 
-#ifndef PROGRAMMIERAUFGABEN_BLATT0_H
-#define PROGRAMMIERAUFGABEN_BLATT0_H
 
 using std::vector;
 
@@ -149,6 +153,21 @@ public:
         } while (h != start);
         printf("\n");
     }
+ 
+    //deletes succ
+    void deleteNode(Node* &ptr){
+        Node* toDelete = ptr;
+        if (ptr == nullptr) {
+            return; //check if element can be deleted
+        }
+        else {
+            if (ptr == start){
+                start = ptr->next; //update the start pointer
+            }
+            ptr = ptr->next;
+            delete toDelete;
+        }
+    }
 };
 
 std::pair<vector<int>, int> josephus(int n, int k);
@@ -163,4 +182,6 @@ static void printList(vector<int>& numbers) {
     printf("%s\n", ss.str().c_str());
 }
 
-#endif //PROGRAMMIERAUFGABEN_BLATT0_H
+#endif // PROGRAMMIERAUFGABEN_BLATT7_H
+
+

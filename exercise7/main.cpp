@@ -25,5 +25,5 @@ void aufgabe3() {
 
 int main() {
     aufgabe2();
-//    aufgabe3();
+    aufgabe3();
 }
