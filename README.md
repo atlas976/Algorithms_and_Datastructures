@@ -13,10 +13,11 @@ Current State of excercises & todos:
 - exercise 3: completed
 - exercise 4: completed
 - exercise 5: completed
-- exercise 6: completed, review
+- exercise 6: completed
+- exercise 7: completed
+- exercise 8: ...
 
 ...
 
 Disclaimer: These exercises folders can be downloaded and easily be worked on by just opening them with Clion, or similarly with other compilers. It is not permitted to use them for any commercial use, as well as it is not permitted to sell them in any kind of product. If there are any mistakes or possibilities of improvement, feel free to tell me about!
 
-Notes: gitignore 
