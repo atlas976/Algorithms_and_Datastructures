@@ -6,9 +6,9 @@ This is a Repo for my Uni work in my second semester in "Algorythmen und Datenst
 
 ### Table of Contents
 - [About](#about)
-- [Current State of Exercises](#current-state-of-excercises--todos)
 - [Usage](#usage)
 - [Disclaimer](#disclaimer)
+- [Current State of Exercises](#current-state-of-excercises--todos)
 
 
 ---
@@ -29,7 +29,7 @@ These exercises folders can be downloaded and easily be worked on by just openin
 ```sh
 git clone https://github.com/atlas976/Algorithms_and_Datastructures.git
 cd Algorithms_and_Datastructures
-# Open in your favorite IDE (In VS-Code use Cmake ffor building and run Testmate C++ for faster experience)
+# Open in your favorite IDE (In VS-Code use Cmake for building and run Testmate C++ for faster experience)
 ```
 ---
 
