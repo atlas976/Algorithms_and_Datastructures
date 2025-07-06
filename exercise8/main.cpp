@@ -19,7 +19,7 @@ void aufgabe4a() {
 void aufgabe4b() {
     PolynomialParams params{{0, 7}, {1, 2}, {2, -5}, {3, 2}};
     Polynomial p = Polynomial(params);
-    p.moveUp(0);
+    p.moveUp(-7);
     p.print();
 }
 
