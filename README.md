@@ -33,10 +33,10 @@ cd Algorithms_and_Datastructures
 # building and run Testmate C++ for faster experience)
 ```
 ---
-````markdown
+
 ### Disclaimer
 It is **not permitted** to use them for any commercial use, as well as it is **not permitted** to sell them in any kind of product. If there are any mistakes or possibilities of improvement, feel free to tell me about!
-````
+
 
 ---
 
