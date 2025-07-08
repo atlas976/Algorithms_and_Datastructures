@@ -13,16 +13,16 @@
 ---
 
 ### About
-This is a repository for my university work in my second semester in "Algorythmen und Datenstrukturen".
+This is a repository for my university work in my second semester in "Algorithmen und Datenstrukturen".
 It serves as a platform for me to learn and improve my Git skills and in the future hopefully also these of my fellow student colleagues ...
-I´ll share my code solutions and my exercise sheets here and will complete and update this repo until the end of my 2nd semester.
-Also I´ll excuse myself for any mistakes, due to the fact that this is no big project of mine, but a simple exercise which I´ll do without double checking everything.
-Nevertheless i hope to help others with this, so enjoy!
+I'll share my code solutions and my exercise sheets here, and I will complete and update this repo until the end of my 2nd semester.
+Also I'll apologize for any mistakes, due to the fact that this is no major project of mine, but a simple exercise that I'am doing without double checking everything.
+Nevertheless I hope to help others with this, so enjoy!
 
 ---
 
 ### Usage
-These exercises folders can be downloaded and easily be worked on by just opening them with Clion, or similarly with other compilers.
+These exercises folders can be downloaded and easily worked on by opening them with Clion, or any similar compiler.
 
 **To download them and clone the repo:**
 
