@@ -61,6 +61,10 @@ It is **not permitted** to use them for any commercial use, as well as it is **n
 - exercise 6: completed
 - exercise 7: completed
 - exercise 8: completed, but review has to be done
+- exercise 9: completed
+
+
+- rework project structure
 
 ...
 
