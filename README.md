@@ -7,7 +7,7 @@
 
 ### Table of Contents
 - [About](#about)
-- [How to use (USAGE.md)](USAGE.md)
+- [How to use (USAGE.md)](Usage.md)
 - [Disclaimer](#disclaimer)
 - [Current State of the repository](#current-state-of-the-repository--todos)
 
